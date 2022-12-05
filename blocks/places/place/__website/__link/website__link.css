@@ -10,4 +10,9 @@
     margin: 12px 0 0;
     color: #fff;
     align-self: end;
+    transition: opacity .5s linear;
+}
+
+.website__link:hover {
+    opacity: .8;
 }
