@@ -2,5 +2,6 @@
     margin: 56px auto;
     display: flex;
     flex-direction: column;
-    width: 984px
+    max-width: 984px;
+    width: 100%;
 }

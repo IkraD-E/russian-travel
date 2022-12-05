@@ -82,6 +82,8 @@
 
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
+@import url(../blocks/cover/__link/cover__link.css);
+
 /* Footer */
 
 @import url(../blocks/footer/footer.css);
@@ -89,3 +91,8 @@
 @import url(../blocks/footer/__link/footer__link.css);
 
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+
+html {
+    height: 100%
+}

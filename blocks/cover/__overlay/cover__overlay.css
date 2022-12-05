@@ -1,9 +1,10 @@
 .cover__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
     background-color: rgba(42, 44, 47, .3);
     width: 100%;
     height: 100%;
-    text-decoration: none;
-    color: #fff;
     display: block;
     transition: background-color 1s ease-out;
 }
