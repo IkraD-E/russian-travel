@@ -1,6 +1,6 @@
 .intro {
     max-width: 984px;
-    width: 100%;
+    width: calc(100% - (48px * 2));
     display: flex;
     align-items: flex-start;
     flex-direction: column;

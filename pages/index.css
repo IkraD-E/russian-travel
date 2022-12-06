@@ -90,6 +90,36 @@
 
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
+.image__place_kosa {
+    background-image: url(../images/place-altai.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image__place_kolsky {
+    background-image: url(../images/place-kolsky.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image__place_altai {
+    background-image: url(../images/place-altai.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image__place_winter-baikal {
+    background-image: url(../images/place-winter-baikal.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image__place_karelia {
+    background-image: url(../images/place-karelia.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 @media screen and (max-width: 1024px) {
     .lead {
         margin-top: 48px;
@@ -101,6 +131,9 @@
     .intro {
         max-width: 928px;
     }
+    .intro__text {
+
+    }
     .photo-grid {
         grid-template-columns: repeat(3, 1fr);
         gap: 14px;
@@ -111,6 +144,9 @@
     }
     .places {
         max-width: 928px;
+    }
+    .place {
+        column-gap: 32px;
     }
     .place__image {
         max-width: 440px;

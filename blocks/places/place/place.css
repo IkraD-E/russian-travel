@@ -5,7 +5,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
-    align-items: end;
+    align-items: start;
+    column-gap: 40px;
 }
 
 .place:first-of-type {
