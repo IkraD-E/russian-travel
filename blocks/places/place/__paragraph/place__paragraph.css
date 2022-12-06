@@ -1,7 +1,4 @@
 .place__paragraph {
-    max-width: 484px;
-    width: 100%;
-    min-height: 116px;
     grid-area: place__paragraph;
     font-family: 'Inter';
     font-style: normal;
@@ -9,4 +6,8 @@
     font-size: 18px;
     line-height: 163%;
     margin: 48px 0 0;
+}
+
+.place__paragraph:last-of-type {
+    margin-top: 24px;
 }
