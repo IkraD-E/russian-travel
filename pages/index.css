@@ -32,13 +32,13 @@
 
 @import url(../blocks/intro/intro.css);
 
-@import url(../blocks/intro/__item/list__item.css);
+@import url(../blocks/intro/__list/__item/list__item.css);
 
-@import url(../blocks/intro/__list/list__list.css);
+@import url(../blocks/intro/__list/intro__list.css);
 
-@import url(../blocks/intro/__text/list__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
 
-@import url(../blocks/intro/__title/list__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
 
 /* Photo-grid */
 
@@ -91,7 +91,7 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 .image__place_kosa {
-    background-image: url(../images/place-altai.jpg);
+    background-image: url(../images/place-kosa.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -131,16 +131,12 @@
     .intro {
         max-width: 928px;
     }
-    .intro__text {
-
-    }
     .photo-grid {
         grid-template-columns: repeat(3, 1fr);
         gap: 14px;
     }
     .gallery__image {
         max-width: 300px;
-        max-height: 225px;
     }
     .places {
         max-width: 928px;
@@ -167,5 +163,174 @@
     }
     .cover__title {
         padding-top: 195px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: calc(100% - 48px);
+        padding: 0 24px;
+    }
+    .lead {
+        width: calc(100% - 48px);
+        padding: 0 24px;
+    }
+    .intro {
+        width: calc(100% - 48px);
+        padding: 0 24px;
+    }
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        width: calc(100% - 48px);
+        padding: 0 24px;
+    }
+    .gallery__image {
+        max-width: 352px;
+        max-height: 264px;
+    }
+    .places {
+        width: calc(100% - 48px);
+        padding: 0 24px;
+    }
+    .place__image {
+        max-width: 340px;
+    }
+    .place__title {
+        max-width: 340px;
+        max-height: 92px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .place__paragraphs {
+        max-width: 352px;
+    }
+    .place__paragraph {
+        font-size: 16px;
+    }
+    .place__website {
+        max-width: 352px;
+    }
+    .cover__title {
+        padding-top: 115px;
+    }
+    .footer {
+        margin-top: 88px;
+        width: calc(100% - 48px);
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        max-width: 288px;
+        margin: 16px 16px 0;
+    }
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+    .header__lang {
+        text-decoration: none;
+        color: #fff;
+        width: 22px;
+        height: 20px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .lead {
+        max-width: 320px;
+    }
+    .lead__title {
+        max-width: 288px;
+        min-height: 88px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .lead__subtitle {
+        max-width: 288px;
+        min-height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .intro {
+        max-width: 288px;
+    }
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .intro__text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .intro__list {
+
+    }
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+    .gallery__image {
+        max-width: 288px;
+        max-height: 216px;
+    }
+    .places {
+        max-width: 720px;
+    }
+    .place {
+        grid-template-columns: 1fr;
+    }
+    .place__image {
+        max-width: 340px;
+        max-height: 340px;
+    }
+    .place__title {
+        max-width: 340px;
+        max-height: 92px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .place__paragraphs {
+        max-width: 352px;
+    }
+    .place__paragraph {
+        font-size: 16px;
+    }
+    .place__website {
+        max-width: 352px;
+    }
+    .cover {
+        max-width: 768px;
+    }
+    .cover__title {
+        padding-top: 33px;
+        max-width: 288px;
+        min-height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .cover__subtitle {
+        margin-top: 16px;
+        max-width: 288px;
+        min-height: 48px;
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+    .footer {
+        margin-top: 64px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+    .footer__links {
+        max-width: 186px;
+        min-height: 310px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__link {
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 24px;
     }
 }
