@@ -1,7 +1,7 @@
 .place__website {
     max-width: 484px;
     width: 100%;
-    max-height: 46px;
+    min-height: 46px;
     margin: 0;
     align-self: end;
 }
