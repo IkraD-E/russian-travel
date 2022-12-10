@@ -9,3 +9,48 @@
     line-height: 1.06;
     text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        padding-top: 195px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        padding-top: 115px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .cover__title {
+        font-size: 56px;
+        max-width: 400px;
+        padding-top: 66px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .cover__title {
+        font-size: 38px;
+        max-width: 290px;
+        padding-top: 48px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .cover__title {
+        font-size: 36px;
+        max-width: 270px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        padding-top: 33px;
+        max-width: 250px;
+        min-height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
