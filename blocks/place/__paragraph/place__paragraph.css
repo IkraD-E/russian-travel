@@ -1,14 +1,11 @@
 .place__paragraph {
-    grid-area: place__paragraph;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
-    margin: 48px 0 0;
+    line-height: 29px;
+    margin: 0;
 }
 
-.place__paragraph:last-of-type {
+.place__paragraph:nth-child(2) {
     margin-top: 24px;
 }
 
@@ -20,7 +17,9 @@
 
 @media screen and (max-width: 320px) {
     .place__paragraph {
-        font-size: 16px;
+        line-height: 26px;
+    }
+    .place__paragraph:nth-child(2) {
         margin-top: 25px;
     }
 }

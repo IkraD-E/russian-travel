@@ -14,13 +14,11 @@
 
 @import url(../blocks/header/__langs/header__langs.css);
 
-@import url(../blocks/header//__lang/header__lang.css);
+@import url(../blocks/header/__lang/header__lang.css);
 
 @import url(../blocks/header/__lang/_ru/header__lang_ru.css);
 
 /* Lead */
-
-@import url(../blocks/);
 
 @import url(../blocks/lead/lead.css);
 
