@@ -74,6 +74,8 @@
 
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 
+@import url(../blocks/place/__url-heading-accent/place__url-heading-accent.css);
+
 /* Cover */
 
 @import url(../blocks/cover/cover.css);
