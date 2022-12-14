@@ -9,6 +9,7 @@
     display: inline;
     margin: 8px auto 0;
     padding: 0 48px;
+    display: block;
 }
 
 @media screen and (max-width: 768px) {

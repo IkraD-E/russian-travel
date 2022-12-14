@@ -7,6 +7,15 @@
     line-height: 28px;
 }
 
+.header__lang:hover {
+    opacity: .8;
+}
+
+.header__lang:first-of-type {
+    margin-right: 18px;
+}
+
+
 @media screen and (max-width: 428px) {
     .header__lang {
         font-size: 18px;

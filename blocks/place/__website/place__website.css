@@ -1,7 +1,6 @@
 .place__website {
     max-width: 484px;
     width: 100%;
-    min-height: 46px;
     margin: 0;
     align-self: end;
 }
@@ -26,7 +25,6 @@
 
 @media screen and (max-width: 320px) {
     .place__website {
-        max-width: 352px;
         padding: 0 16px;
         box-sizing: border-box;
     }
