@@ -5,12 +5,28 @@
     font-size: 18px;
     line-height: 1.22;
     text-align: center;
+    padding-bottom: 245px;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        padding-bottom: 195px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        padding-bottom: 115px;
+    }
+}
+
 
 @media screen and (max-width: 580px) {
     .cover__subtitle {
         font-size: 16px;
         margin-top: 16px;
+        padding-bottom: 33px;
+        width: 90%;
     }
 }
 
@@ -23,7 +39,6 @@
 
 @media screen and (max-width: 320px) {
     .cover__subtitle {
-        padding: 0 16px;
         line-height: 1.14;
     }
 }

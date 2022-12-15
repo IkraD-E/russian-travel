@@ -18,6 +18,10 @@
 
 @import url(../blocks/header/__lang/_ru/header__lang_active.css);
 
+/* Content */
+
+@import url(../blocks/content/content.css);
+
 /* Lead */
 
 @import url(../blocks/lead/lead.css);
