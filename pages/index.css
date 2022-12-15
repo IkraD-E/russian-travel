@@ -48,7 +48,7 @@
 
 @import url(../blocks/intro/__text/intro__text.css);
 
-@import url(../blocks/intro/__item/_spun-numbers/intro__item_spun-numbers.css);
+@import url(../blocks/intro/__item/__span-accent/intro__span-accent.css);
 
 /* Photo-grid */
 
@@ -80,7 +80,7 @@
 
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 
-@import url(../blocks/place/__url-heading-accent/place__url-heading-accent.css);
+@import url(../blocks/place/__span-accent/place__span-accent.css);
 
 /* Cover */
 
