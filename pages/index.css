@@ -58,6 +58,8 @@
 
 @import url(../blocks/photo-grid/__list/photo-grid__list.css);
 
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
 /* Places */
 
 @import url(../blocks/places/places.css);
