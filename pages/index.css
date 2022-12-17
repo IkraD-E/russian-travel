@@ -16,7 +16,7 @@
 
 @import url(../blocks/header/__lang/header__lang.css);
 
-@import url(../blocks/header/__lang/_ru/header__lang_active.css);
+@import url(../blocks/header/__lang/_active/header__lang_active.css);
 
 /* Content */
 
@@ -48,7 +48,7 @@
 
 @import url(../blocks/intro/__text/intro__text.css);
 
-@import url(../blocks/intro/__item/__span-accent/intro__span-accent.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 
 /* Photo-grid */
 
